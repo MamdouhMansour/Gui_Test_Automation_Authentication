@@ -4,19 +4,10 @@
 	https://testng.org/doc/documentation-main.html#testng-xml -->
 
 <suite name="Sample Test Suite">
-	<test name="CLI Test">
-		<packages>
-			<package name="tests.cli.demo" />
-		</packages>
-	</test>
-	<test name="API Test">
-		<packages>
-			<package name="tests.api.users" />
-		</packages>
-	</test>
 	<test name="GUI Test">
 		<classes>
-			<class name="tests.gui.google.SimpleSearch" />
+			<class name="tests.gui.task.TestRegistration" />
+			<class name="tests.gui.task.TestLogin" />
 		</classes>
 	</test>
 </suite>
